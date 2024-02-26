@@ -6,7 +6,7 @@ services:
     ports:
       - "3128:3128"
     volumes:
-      - ./nginx.conf:/usr/local/nginx/conf/nginx.conf:ro      
-      - ./htpasswd:/usr/local/nginx/conf/htpasswd:ro      
+      - ./conf/nginx.conf:/usr/local/nginx/conf/nginx.conf:ro      
+      - ./conf/htpasswd:/usr/local/nginx/conf/htpasswd:ro      
   scimple:
     image: tirasa/scimple-server:1.0.0        
