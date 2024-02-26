@@ -9,4 +9,4 @@ To run:
 According to your requirements you may want to change configuration files:
 
 * `./conf/nginx.conf`: nginx configuration file containing forward rules for path `/v2`
-* htpasswd: to (optionally) add basic auth to the nginx server. Default user is `sample-user` with password `password`.
+* `./conf/htpasswd`: to (optionally) add basic auth to the nginx server. Default user is `sample-user` with password `password`.
